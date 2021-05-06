@@ -1,10 +1,15 @@
 import './App.css';
+import About from './components/About'
+import Navbar from './components/Navbar';
+import { BrowserRouter as Router, Switch, Route} from 'react-router-dom'
 
 function App() {
   return (
-    <div className="container">
-      <h1> Hello World</h1>
-    </div>
+    <Router>
+        <Route path='/'  exact component={Navbar}></Route>
+        <Route path='/about'  exact component={About}></Route>
+    </Router>
+
   );
 }
 
