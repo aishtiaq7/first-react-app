@@ -1,4 +1,30 @@
-.bigFont{
-    font-size: 34px;
-    font-style: italic;
+*{
+    padding: 0;
+    margin:  0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: wheat;
+}
+
+.navBar{
+    margin-top: 20px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.navBar li{
+}
+
+.navBar  ul{
+    flex-direction: row;
+}
+li {
+    /* padding: 60px ; */
+    /* padding: 20px; */
+    display: inline-block;
+    padding-left: 20px;
+    padding-right: 20px;
 }

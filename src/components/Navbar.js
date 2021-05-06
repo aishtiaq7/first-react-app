@@ -1,16 +1,16 @@
 import React from 'react'
-// import NavbarCSS from './Navbar.css'
+import NavbarCSS from './Navbar.css'
 import { FaBars } from 'react-icons/fa';
 import {Link} from 'react-router-dom'
 
 
 export default function Navbar(){
     return (<>
-        <div className="navBar">
-            <div className="navLink">
+        <div >
+            {/* <div className="navLink">
                 <h1><FaBars/></h1>
-            </div>
-            <div>
+            </div> */}
+            <div className="navBar">
                 <ul>
                     <li><Link to="/">Home</Link></li>
                     <li><Link to="/about">About</Link></li>
